@@ -367,6 +367,7 @@ minetest.register_node("default:obsidian", {
 	tiles = {"default_obsidian.png"},
 	sounds = default.node_sound_stone_defaults(),
 	groups = {cracky = 1, level = 2},
+	on_blast = function() end,
 })
 
 minetest.register_node("default:obsidianbrick", {
@@ -377,6 +378,7 @@ minetest.register_node("default:obsidianbrick", {
 	is_ground_content = false,
 	sounds = default.node_sound_stone_defaults(),
 	groups = {cracky = 1, level = 2},
+	on_blast = function() end,
 })
 
 minetest.register_node("default:obsidian_block", {
@@ -385,6 +387,7 @@ minetest.register_node("default:obsidian_block", {
 	is_ground_content = false,
 	sounds = default.node_sound_stone_defaults(),
 	groups = {cracky = 1, level = 2},
+	on_blast = function() end,
 })
 
 --
